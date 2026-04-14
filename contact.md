@@ -8,16 +8,11 @@ permalink: /contact/
 
 The quickest way to reach out is email. The social links are left as editable placeholders so they can be replaced with the final profiles later.
 
-<div class="card-grid cards-2">
+<div class="card-grid">
   <article class="info-card">
     <span class="card-label">Email</span>
     <strong><a href="mailto:{{ resume.profile.email }}">{{ resume.profile.email }}</a></strong>
     <p>Preferred for academic and collaboration inquiries.</p>
-  </article>
-  <article class="info-card">
-    <span class="card-label">Phone</span>
-    <strong><a href="tel:{{ resume.profile.phone | replace: ' ', '' }}">{{ resume.profile.phone }}</a></strong>
-    <p>Useful for urgent coordination.</p>
   </article>
 </div>
 

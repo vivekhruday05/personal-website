@@ -1,67 +1,88 @@
 profile:
   name: Vivek Hruday Kavuri
-  role: Undergraduate Researcher · IIIT Hyderabad
-  tagline: Researching language, bias, and trustworthy AI
-  summary: B.Tech. in Computer Science and M.S. (by Research) in Computational Linguistics student focused on NLP, LLM evaluation, and bias mitigation.
+  role: Undergraduate Researcher @ LTRC, IIIT Hyderabad
+  tagline: Dual Degree Student in CS & Computational Linguistics at IIIT Hyderabad.
+  summary: |
+    Full time student at IIIT Hyderabad, pursuing a dual degree in Computer Science and Computational Linguistics. 
+    Currently an Undergraduate Researcher at the Language Technologies Research Center (L.T.R.C), IIIT Hyderabad, 
+    focusing on NLP, LLM bias, and trustworthy AI.
   location: Hyderabad, India
   email: vivekhruday005@gmail.com
-  phone: "+91 7013929571"
   resume_pdf: /Research_Resume_April_2026.pdf
   socials:
     - label: LinkedIn
-      url: ""
+      url: "https://www.linkedin.com/in/vivekhruday05"
     - label: GitHub
-      url: ""
+      url: "https://github.com/vivekhruday05"
     - label: Codeforces
-      url: ""
+      url: "https://codeforces.com/profile/vivekhruday05"
 
 education:
   - school: International Institute of Information Technology, Hyderabad
-    degree: B.Tech. in Computer Science and M.S. (by Research) in Computational Linguistics
-    dates: Sep 2022 – Present
+    degree: B.Tech. in C.S and M.S (by Research) in Computational Linguistics
+    dates: 2022 – Present
     location: Hyderabad, Telangana
-    note: CGPA 8.97 / 10
+    note: CGPA 8.7 / 10
+  - school: Sri Chaitanya Arts and Science Junior College
+    degree: Intermediate / +2
+    dates: 2020 – 2022
+    location: Khammam, Telangana
+    note: 97.7%
+  - school: Sri C International School
+    degree: SSC
+    dates: 2020
+    location: Khammam, Telangana
+    note: 100%
 
 coursework:
+  - Computer Programming
+  - Discrete Structures
   - Data Structures and Algorithms
+  - Introduction to Software Systems
   - Linear Algebra
   - Computer Systems Organization
   - Algorithm Analysis and Design
   - Data and Applications
   - Probability and Statistics
+  - Computational Linguistics
+  - Language and Society
   - Automata Theory
+  - Digital Signal Analysis
+  - Language Typology and Universals
+  - Introduction to NLP
   - Design and Analysis of Software Systems
   - Machine, Data and Learning
   - Advanced NLP
   - Operating Systems and Networks
   - Statistical Methods in AI
+  - Computational Psycholinguistics
   - Responsible and Safe AI Systems
 
 publications:
   - title: "KTCR: Knowledge Transfer using Concept Refinement"
     venue: International Joint Conference on Neural Networks (IJCNN), 2025
     status: Published
-    summary: Student-teacher framework for hate speech detection on implicit datasets.
-    impact: Nearly 10% improvement in F1 and AUC on Wiki Hate, EA, and CH datasets.
-    url: "https://arxiv.org/search/?query=KTCR%20Knowledge%20Transfer%20using%20Concept%20Refinement&searchtype=title"
+    summary: Published research implementing student-teacher framework for hate speech detection on implicit datasets.
+    impact: Achieved nearly 10% improvement in F1 and AUC scores on Wiki Hate, EA and CH datasets using knowledge transfer techniques.
+    url: "https://arxiv.org/abs/2410.15314"
   - title: "Freeze and Reveal: Exposing Modality Bias in Vision-Language Models"
     venue: OMMM 2025 Workshop, co-located with RANLP 2025
     status: Accepted
-    summary: Novel de-biasing technique using data augmentation with reduced sample requirements.
-    impact: Analyzed which modalities in VLMs contribute more toward gender bias.
-    url: "https://arxiv.org/search/?query=Freeze%20and%20Reveal%20Exposing%20Modality%20Bias%20in%20Vision-Language%20Models&searchtype=title"
-  - title: "NEAT: Concept Driven Neuron Attribution in LLMs"
+    summary: Developed novel de-biasing technique utilizing Data Augmentation with reduced sample requirements.
+    impact: Analyzed which modalities out of text and vision in VLMs contribute more towards gender bias.
+    url: "https://arxiv.org/abs/2508.07432"
+  - title: "NEAT: Concept driven Neuron Attribution in LLMs"
     venue: SurgeLLM Workshop at ACL 2026
     status: Under review
-    summary: Framework to attribute neurons responsible for broader human-like concepts.
-    impact: Reduced attribution cost from degree-2 polynomial complexity to linear polynomial complexity.
-    url: "https://arxiv.org/search/?query=NEAT%20Concept%20Driven%20Neuron%20Attribution%20in%20LLMs&searchtype=title"
-  - title: "Think2: Grounded Metacognitive Reasoning in Large Language Models"
+    summary: Developed a framework to attribute neurons that are responsible for broader human like concepts.
+    impact: Decreased the forward passes required from degree 2 polynomial to a linear polynomial.
+    url: "https://arxiv.org/abs/2508.15875"
+  - title: "Think²: Grounded Metacognitive Reasoning in Large Language Models"
     venue: CoNLL 2026
     status: Under review
-    summary: Metacognitive prompting for better error detection and self-correction in LLMs.
-    impact: Reported 3× better error detection and 84% human preference for trust and transparency.
-    url: "https://arxiv.org/search/?query=Think2%20Grounded%20Metacognitive%20Reasoning%20in%20Large%20Language%20Models&searchtype=title"
+    summary: Metacognitive prompting greatly improves LLM error detection and self-correction (~3×).
+    impact: Humans prefer it (84%) for better trust and transparency.
+    url: "https://arxiv.org/abs/2602.18806"
 
 experience:
   - title: Undergraduate Researcher
@@ -69,74 +90,152 @@ experience:
     dates: May 2024 – Present
     location: Hyderabad, India
     bullets:
-      - Researching bias mitigation and implicit hate in LLMs under Dr. Rahul Mishra.
-      - Published work at IJCNN 2025 and co-advised by Dr. Vasudeva Varma on EdTech-focused AI solutions.
-  - title: Teaching Assistant
-    org: IIIT Hyderabad
-    dates: Aug 2025 – Present
+      - Conducting research on Implicit Hate Speech detection and Bias in Large Language Models under Dr. Rahul Mishra.
+      - Advised by Dr. Vasudeva Varma focusing on AI applications in educational technology domain.
+      - Published research paper at International Joint Conference on Neural Networks (IJCNN) 2025.
+  - title: Research Intern
+    org: TCS Research
+    dates: Dec 2025 – Mar 2026
     location: Hyderabad, India
     bullets:
-      - Teaching assistant for CS7.501 Advanced NLP with 100+ students.
-      - Mentoring 6 teams and co-mentoring 4 teams for the course project.
+      - Proposed Sem-Min-K, a semantic MIA method improving robustness of machine unlearning audits against paraphrasing.
+      - Built and evaluated pipeline across GPT-2, Mamba, and Pythia, achieving up to 70.1% AUROC on paraphrased data.
+  - title: Independent Study
+    org: Information Retrieval and Extraction Lab, IIIT Hyderabad
+    dates: Jan 2025 – May 2025
+    location: Hyderabad, India
+    bullets:
+      - Developed foundational framework for AI learning middleware under guidance of Dr. Vasudeva Varma.
+      - Focused on educational technology applications and intelligent tutoring systems.
   - title: Teaching Assistant
     org: IIIT Hyderabad
     dates: Jan 2025 – May 2025
     location: Hyderabad, India
     bullets:
-      - Teaching assistant for CS6.201 Introduction to Software Systems with 250+ students.
-      - Conducted 5 out of 10 lab sessions and managed grading, assignments, and student queries.
-  - title: Backend and Machine Learning Intern
+      - Teaching Assistant for CS6.201 - Introduction to Software Systems course.
+      - Conducted lab sessions, provided student support, and managed course logistics including assignment grading.
+  - title: Machine Learning Intern
     org: DotVector AI
     dates: Mar 2025 – Apr 2025
     location: Remote
     bullets:
-      - Designed and developed a speech synthesis pipeline using Kokoro.
-      - Deployed scalable GCP servers via Docker and built a low-latency streaming system with WebSockets.
+      - Implemented streaming speech synthesis using Kokoro framework for real-time audio generation.
+      - Deployed synthesis server using Docker containers on Google Cloud Platform ensuring scalability.
+      - Developed client-server architecture for efficient real-time speech synthesis applications.
   - title: Project Mentor
     org: International Advanced Summer School on NLP
     dates: Jun 2024 – Jul 2024
     location: IIIT Hyderabad
     bullets:
-      - Designed a project curriculum on news article summarization for international participants.
-      - Mentored two teams of three participants each with technical guidance and project oversight.
+      - Designed comprehensive project curriculum on News Article Summarization for international participants.
+      - Mentored two teams of 3 participants each, providing technical guidance and project oversight.
+  - title: Full Stack Developer
+    org: BoxAds
+    dates: Jan 2024 – Apr 2024
+    location: Remote
+    bullets:
+      - Developed platform connecting advertisers and e-commerce partners for targeted demographic advertising.
+      - Implemented customer demographic mapping system using order history and user behavior analytics.
+      - Built comprehensive features including ad performance monitoring, payment processing, form builder, and admin panel.
+      - Designed user interface using Figma and implemented using React, Node.js, Express, and MongoDB Atlas.
+
+positions_of_responsibility:
+  - role: Head, Design Team
+    org: NSS - IIIT Hyderabad
+    dates: Aug 2024 - Aug 2025
+  - role: Member, Design Team
+    org: Student Alumni Connect Cell - IIIT Hyderabad
+    dates: May 2024 - Aug 2025
+  - role: Member, Design Team
+    org: NSS - IIIT Hyderabad
+    dates: Aug 2023 - Aug 2024
+  - role: Member, Design Team
+    org: Decore - IIIT Hyderabad
+    dates: Aug 2023 - Aug 2024
+  - role: Member, Logistics Team
+    org: Music Club - IIIT Hyderabad
+    dates: Aug 2022 - Aug 2024
 
 projects:
   - title: Periodic Table SME
     stack: Python, FastAPI, LangGraph, Gemini, Qwen, ChromaDB, Elasticsearch
     summary: Multi-agent RAG system for chemistry Q&A, quiz/report generation, and document export.
     bullets:
-      - Built ingestion, chunking, embeddings, retrieval, reranking, streaming APIs, and persistent chat memory.
-      - Enabled tool-driven outputs such as PDF/PPT generation and email delivery through one agent workflow.
-  - title: Tabular Question Answering System (Databench)
-    stack: Python, SQLite3, PyTorch, Transformers, PEFT
-    summary: Pipeline that converts CSV files to SQL tables for structured data querying and retrieval.
-    bullets:
-      - Fine-tuned transformer models on SPIDER for SQL generation and automated answer extraction.
-      - Improved accuracy by about 8% over the previous architecture.
+      - Built a multi-agent RAG system (Gemini/Qwen) for chemistry Q&A, quiz/report generation, and document export.
+      - Implemented full pipeline: ingestion, chunking, embeddings, retrieval, reranking, streaming APIs, and persistent chat memory.
+      - Enabled tool-driven outputs including PDF/PPT generation and email delivery via a unified agent workflow.
   - title: Analyzing Language Acquisition in Language Models
     stack: Python, PyTorch, Transformers, scikit-learn, spaCy
-    summary: Simulated early language acquisition using BabyBERTa and age-graded child-directed speech datasets.
+    summary: Simulated early language acquisition by training BabyBERTa on age-graded child-directed speech datasets.
     bullets:
-      - Evaluated syntactic and semantic learning with standardized benchmarks and linguistic analysis tools.
-      - Explored parallels between human developmental language learning and machine learning.
+      - Simulated early language acquisition by training BabyBERTa on age-graded child-directed speech datasets.
+      - Evaluated syntactic and semantic learning using standardized benchmarks and linguistic analysis tools.
+      - Analyzed parallels between human developmental language learning and machine learning processes.
+  - title: Tabular Question Answering System (Databench)
+    stack: Python, SQLite3, PyTorch, Transformers, PEFT
+    summary: Architecture converting CSV datasets to SQL format for efficient querying and data access.
+    bullets:
+      - Developed architecture converting CSV datasets to SQL format for efficient querying and data access.
+      - Implemented model using SPIDER dataset for SQL query generation and automated answer extraction.
+      - Achieved improved performance on tabular question answering benchmarks using fine-tuned language models.
   - title: Network File System
     stack: C, POSIX, Sockets, Concurrency
-    summary: Client-server file system with naming and storage servers, replication, redundancy, and fail-safe monitoring.
+    summary: Distributed network file system with naming server, storage servers, and client architecture.
     bullets:
-      - Used POSIX threads for concurrency and continuous monitoring of dead servers.
-      - Added dynamic port allocation and both TCP and UDP connectivity through WebSockets.
+      - Developed distributed network file system with naming server, storage servers, and client architecture.
+      - Implemented concurrent multi-device support and multiple client handling using POSIX threading.
+      - Designed fault-tolerant system with load balancing and data replication capabilities.
+  - title: C-Shell Implementation
+    stack: C, Operating Systems, Linux, POSIX
+    summary: Custom Unix shell replicating core command-line interface functionalities and system calls.
+    bullets:
+      - Built custom Unix shell replicating core command-line interface functionalities and system calls.
+      - Implemented advanced features including process piping, I/O redirection, job control, and signal handling.
+      - Developed robust error handling and memory management for system-level programming.
+  - title: Modified XV6-RISC-V Operating System
+    stack: C, Operating Systems, RISC-V, Data Structures
+    summary: Enhanced MIT's XV6 operating system with custom system calls and scheduling algorithms.
+    bullets:
+      - Enhanced MIT's XV6 operating system by implementing custom system calls and process scheduling algorithms.
+      - Developed FCFS, Priority-based Scheduling (PBS), and Multi-Level Feedback Queue (MLFQ) schedulers.
+      - Demonstrated expertise in low-level system programming and operating system kernel development.
+  - title: BallotTrack Election Database System
+    stack: SQL, Python, PyMySQL
+    summary: Election management database with role-based access control and transaction management.
+    bullets:
+      - Designed comprehensive election management database with role-based access control for admin and users.
+      - Implemented data integrity constraints, transaction management, and efficient query optimization.
+      - Developed user interface for data entry, reporting, and election result analysis.
+  - title: Image Compression using Linear Algebra
+    stack: MATLAB, DCT, SVD
+    summary: Image compression using Discrete Cosine Transform and Singular Value Decomposition.
+    bullets:
+      - Implemented and compared Discrete Cosine Transform (DCT) and Singular Value Decomposition (SVD) compression techniques.
+      - Analyzed compression ratios and image quality metrics for different mathematical approaches.
+      - Provided theoretical analysis and empirical results in comprehensive technical report.
 
 skills:
   - category: Programming Languages
-    items: [C, C++, Python, JavaScript, SQL, HTML/CSS, Bash]
-  - category: Frameworks and Libraries
-    items: [PyTorch, Transformers, PEFT, React, Node, Express, pandas, NumPy, scikit-learn, Matplotlib]
+    items: [C, C++, Python, JavaScript, SQL, HTML/CSS, Bash, Assembly Language x86]
+  - category: Frameworks & Libraries
+    items: [PyTorch, Transformers, PEFT, React, Node.js, Express, pandas, NumPy, scikit-learn, Matplotlib]
   - category: Developer Tools
     items: [Git, VS Code, PyCharm, Docker, GCP, Unity, Figma, Canva, Vim, LaTeX, MATLAB]
-  - category: Databases and Technologies
+  - category: Databases & Technologies
     items: [MongoDB, SQLite3, MySQL, POSIX, WebSockets, RESTful APIs]
 
 awards:
-  - Research Award, Academic Awards 2024–25, recognizing research excellence.
-  - Dean’s List - 1, Academic Awards 2023–24, at IIIT Hyderabad.
-  - Dean’s List - 2, Academic Awards 2022–23, at IIIT Hyderabad.
+  - Research Award, Academic Awards 2024-25, recognizing research excellence for working on research problems.
+  - Dean's List - 2, Academic Awards 2024-25, recognizing academic excellence at IIIT Hyderabad.
+  - Dean's List - 1, Academic Awards 2023-24, recognizing academic excellence at IIIT Hyderabad.
+  - Dean's List - 2, Academic Awards 2022-23, demonstrating consistent academic performance at IIIT Hyderabad.
+  - Achieved All India Rank 4677 (CRL) in JEE Mains 2022.
+  - Attained All India Rank 4116 (CRL) in JEE Advanced 2022.
+  - Secured State Rank 550 in TS EAMCET 2022.
+  - Qualified Pre-Regional Mathematical Olympiad (PRMO) and National Standard Examination in Junior Science (NSEJS) in 2019.
+
+certificates:
+  - Certificate of completion, BlueDot AI Safety Course
+  - Certificate of Participation, Megathon'25 conducted by E-Cell, IIIT Hyderabad.
+  - Certificate of Completion of {Devlaunch App Dev X Block Chain, Intro to ML, DL and Computer Vision} held during summer school 2023 conducted by Various clubs of IIT Madras.
+  - Certificate of Participation, Megathon'23 conducted by E-Cell, IIIT Hyderabad.

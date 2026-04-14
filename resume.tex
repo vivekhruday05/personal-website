@@ -1,0 +1,358 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{fontawesome}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\input{glyphtounicode}
+\setlist[itemize]{itemsep=-2pt}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-12pt}\bfseries\scshape\raggedright\large
+}{}{0em}{}[\color{black} \titlerule \vspace{-6pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Vivek Hruday Kavuri} \\ \vspace{1pt}
+    \small \faPhone\  +91 7013929571 $|$ \faEnvelopeO\ \href{mailto:vivekhruday005@gmail.com}{\underline{vivekhruday005@gmail.com}} $|$ \faCode\ \href{https://codeforces.com/profile/vivekhruday05}{\underline{Codeforces}} $|$ \faGithub\ \href{https://github.com/vivekhruday05}{\underline{Github}}\\
+    \textit{\small{Full time student at IIIT Hyderabad, pursuing dual degree in Computer Science and Computational Linguistics. \\ Undergraduate Researcher at Language Technologies Research Center (L.T.R.C), IIIT Hyderabad.}}
+
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \setlength{\tabcolsep}{3pt}
+\begin{tabular}{lllll}
+\textbf{Course} & \textbf{College/University} & \textbf{Year} & \textbf{CGPA/\%} \\ 
+\midrule
+B.Tech. in C.S and   & IIIT Hyderabad  &  2022-present & 8.7/10\\ M.S (by Research) in C.L\\
+Intermediate/+2      & Sri Chaitanya Arts and Science Junior College, Khammam  & 2020-2022 & 97.7\%  \\ 
+SSC     & Sri C International School, Khammam & 2020 & 100\%  \\ 
+\bottomrule
+\end{tabular}
+
+%-----------Courses-----------
+\section{Courses}
+\small{ Computer Programming $|$ Discrete Structures $|$ Data Structures and Algorithms $|$ Introduction to Software Systems $|$ Linear Algebra $|$ Computer Systems Organization $|$ Algorithm Analysis and Design $|$ Data and Applications $|$ Probability and Statistics $|$ Computational Linguistics $|$ Language and Society $|$ Automata Theory $|$ Digital Signal Analysis $|$ Language Typology and Universals $|$ Introduction to NLP $|$ Design and Analysis of Software Systems $|$ Machine, Data and Learning $|$ Advanced NLP $|$ Operating Systems and Networks $|$ Statistical Methods in AI $|$ Computational Psycholinguistics $|$ Responsible and Safe AI Systems}
+
+%-----------Publications-----------
+\section{Publications}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{KTCR: Knowledge Transfer using Concept Refinement - \href{https://arxiv.org/abs/2410.15314}{Link}}{}
+{International Joint Conference on Neural Networks (IJCNN), 2025}{}
+\resumeItemListStart
+\resumeItem{Published research implementing student-teacher framework for hate speech detection on implicit datasets}
+\resumeItem{Achieved nearly 10\% improvement in F1 and AUC scores on Wiki Hate, EA and CH datasets using knowledge transfer techniques}
+\resumeItemListEnd
+
+\resumeSubheading
+{Freeze and Reveal: Exposing Modality Bias in Vision-Language Models - \href{https://arxiv.org/abs/2508.07432}{Link}}{}
+{Accepted at OMMM 2025 Workshop co-located with RANLP 2025}{}
+\resumeItemListStart
+\resumeItem{Developed novel de-biasing technique utilizing Data Augmentation with reduced sample requirements.}
+\resumeItem{Analyzed which modalities out of text and vision in VLMs contribute more towards gender bias.}
+\resumeItemListEnd
+
+\resumeSubheading
+{NEAT: Concept driven Neuron Attribution in LLMs - \href{https://arxiv.org/abs/2508.15875}{Link}}{}
+{Under Review at SurgeLLM (Workshop at ACL 2026)}{}
+\resumeItemListStart
+\resumeItem{Developed a framework to attribute neurons that are responsible for broader human like concepts.}
+\resumeItem{Decreased the forward passes required from degree 2 polynomial to a linear polynomial.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Think$^2$: Grounded Metacognitive Reasoning in Large Language Models - \href{https://arxiv.org/abs/2602.18806}{Link}}{}
+{Under Review at CoNLL 2026}{}
+\resumeItemListStart
+\resumeItem{Metacognitive prompting greatly improves LLM error detection and self-correction (~3×).}
+\resumeItem{Humans prefer it (84\%) for better trust and transparency.}
+\resumeItemListEnd
+%-----------Experience-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Undergraduate Researcher}{May 2024 -- Present}
+{Language Technologies Research Center (LTRC), IIIT Hyderabad}{Hyderabad, India}
+\resumeItemListStart
+\resumeItem{Conducting research on Implicit Hate Speech detection and Bias in Large Language Models under Dr. Rahul Mishra}
+\resumeItem{Advised by Dr. Vasudeva Varma focusing on AI applications in educational technology domain}
+\resumeItem{Published research paper at International Joint Conference on Neural Networks (IJCNN) 2025}
+\resumeItemListEnd
+
+\resumeSubheading
+{Research Intern}{December 2025 -- March 2026}
+{TCS Research}{Hyderabad, India}
+\resumeItemListStart
+\resumeItem{Proposed Sem-Min-K, a semantic MIA method improving robustness of machine unlearning audits against paraphrasing}
+\resumeItem{Built and evaluated pipeline across GPT-2, Mamba, and Pythia, achieving up to 70.1\% AUROC on paraphrased data}
+\resumeItemListEnd
+
+\resumeSubheading
+{Independent Study}{January 2025 -- May 2025}
+{Information Retrieval and Extraction Lab, IIIT Hyderabad}{Hyderabad, India}
+\resumeItemListStart
+\resumeItem{Developed foundational framework for AI learning middleware under guidance of Dr. Vasudeva Varma}
+\resumeItem{Focused on educational technology applications and intelligent tutoring systems}
+\resumeItemListEnd
+
+\resumeSubheading
+{Teaching Assistant}{January 2025 - May 2025}
+{IIIT Hyderabad}{Hyderabad, India}
+\resumeItemListStart
+\resumeItem{Teaching Assistant for CS6.201 - Introduction to Software Systems course}
+\resumeItem{Conducted lab sessions, provided student support, and managed course logistics including assignment grading}
+\resumeItemListEnd
+
+\resumeSubheading
+{Machine Learning Intern}{March 2025 - April 2025}
+{DotVector AI}{Remote}
+\resumeItemListStart
+\resumeItem{Implemented streaming speech synthesis using Kokoro framework for real-time audio generation}
+\resumeItem{Deployed synthesis server using Docker containers on Google Cloud Platform ensuring scalability}
+\resumeItem{Developed client-server architecture for efficient real-time speech synthesis applications}
+\resumeItemListEnd
+
+\resumeSubheading
+{Project Mentor}{June 2024 -- July 2024}
+{International Advanced Summer School on NLP}{IIIT Hyderabad}
+\resumeItemListStart
+\resumeItem{Designed comprehensive project curriculum on News Article Summarization for international participants}
+\resumeItem{Mentored two teams of 3 participants each, providing technical guidance and project oversight}
+\resumeItemListEnd
+
+\resumeSubheading
+{Full Stack Developer}{January 2024 -- April 2024}
+{BoxAds}{Remote}
+\resumeItemListStart
+\resumeItem{Developed platform connecting advertisers and e-commerce partners for targeted demographic advertising}
+\resumeItem{Implemented customer demographic mapping system using order history and user behavior analytics}
+\resumeItem{Built comprehensive features including ad performance monitoring, payment processing, form builder, and admin panel}
+\resumeItem{Designed user interface using Figma and implemented using React, Node.js, Express, and MongoDB Atlas}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------Positions of Responsibility-----------
+\section{\textbf{Positions of Responsibility} \hspace{9cm} \textbf{Year}}
+\begin{itemize}[label={--}, leftmargin=*, itemsep=-2pt, parsep=0.01pt]
+    \item \small\textbf{Head, Design Team, NSS - IIIT Hyderabad}\hfill August 2024 - August 2025
+    
+    \item \small\textbf{Member, Design Team, Student Alumni Connect Cell - IIIT Hyderabad}\hfill May 2024 - August 2025
+    
+    \item \small\textbf{Member, Design Team, NSS - IIIT Hyderabad}\hfill August 2023 - August 2024
+    
+    \item \small\textbf{Member, Design Team, Decore - IIIT Hyderabad}\hfill August 2023 - August 2024
+    
+    \item \small\textbf{Member, Logistics Team, Music Club - IIIT Hyderabad}\hfill August 2022 - August 2024
+        
+\end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Periodic Table SME} $|$ \emph{Python, FastAPI, LangGraph, Gemini, Qwen, ChromaDB, Elasticsearch}}{}
+\resumeItemListStart
+\resumeItem{Built a multi-agent RAG system (Gemini/Qwen) for chemistry Q\&A, quiz/report generation, and document export}
+\resumeItem{Implemented full pipeline: ingestion, chunking, embeddings, retrieval, reranking, streaming APIs, and persistent chat memory}
+\resumeItem{Enabled tool-driven outputs including PDF/PPT generation and email delivery via a unified agent workflow}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Analyzing Language Acquisition in Language Models} $|$ \emph{Python, PyTorch, Transformers, scikit-learn, spaCy}}{}
+\resumeItemListStart
+\resumeItem{Simulated early language acquisition by training BabyBERTa on age-graded child-directed speech datasets}
+\resumeItem{Evaluated syntactic and semantic learning using standardized benchmarks and linguistic analysis tools}
+\resumeItem{Analyzed parallels between human developmental language learning and machine learning processes}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Tabular Question Answering System (Databench)} $|$ \emph{Python, SQLite3, PyTorch, Transformers, PEFT}}{}
+\resumeItemListStart
+\resumeItem{Developed architecture converting CSV datasets to SQL format for efficient querying and data access}
+\resumeItem{Implemented model using SPIDER dataset for SQL query generation and automated answer extraction}
+\resumeItem{Achieved improved performance on tabular question answering benchmarks using fine-tuned language models}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Network File System} $|$ \emph{C, POSIX, Sockets, Concurrency}}{}
+\resumeItemListStart
+\resumeItem{Developed distributed network file system with naming server, storage servers, and client architecture}
+\resumeItem{Implemented concurrent multi-device support and multiple client handling using POSIX threading}
+\resumeItem{Designed fault-tolerant system with load balancing and data replication capabilities}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{C-Shell Implementation} $|$ \emph{C, Operating Systems, Linux, POSIX}}{}
+\resumeItemListStart
+\resumeItem{Built custom Unix shell replicating core command-line interface functionalities and system calls}
+\resumeItem{Implemented advanced features including process piping, I/O redirection, job control, and signal handling}
+\resumeItem{Developed robust error handling and memory management for system-level programming}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Modified XV6-RISC-V Operating System} $|$ \emph{C, Operating Systems, RISC-V, Data Structures}}{}
+\resumeItemListStart
+\resumeItem{Enhanced MIT's XV6 operating system by implementing custom system calls and process scheduling algorithms}
+\resumeItem{Developed FCFS, Priority-based Scheduling (PBS), and Multi-Level Feedback Queue (MLFQ) schedulers}
+\resumeItem{Demonstrated expertise in low-level system programming and operating system kernel development}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{BallotTrack Election Database System} $|$ \emph{SQL, Python, PyMySQL}}{}
+\resumeItemListStart
+\resumeItem{Designed comprehensive election management database with role-based access control for admin and users}
+\resumeItem{Implemented data integrity constraints, transaction management, and efficient query optimization}
+\resumeItem{Developed user interface for data entry, reporting, and election result analysis}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Image Compression using Linear Algebra} $|$ \emph{MATLAB, DCT, SVD}}{}
+\resumeItemListStart
+\resumeItem{Implemented and compared Discrete Cosine Transform (DCT) and Singular Value Decomposition (SVD) compression techniques}
+\resumeItem{Analyzed compression ratios and image quality metrics for different mathematical approaches}
+\resumeItem{Provided theoretical analysis and empirical results in comprehensive technical report}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{\small{: C, C++, Python, JavaScript, SQL, HTML/CSS, Bash, Assembly Language x86}} \\
+     \textbf{Frameworks \& Libraries}{\small{: PyTorch, Transformers, PEFT, React, Node.js, Express, pandas, NumPy, scikit-learn, Matplotlib}} \\
+     \textbf{Developer Tools}{\small{: Git, VS Code, PyCharm, Docker, GCP, Unity, Figma, Canva, Vim, \LaTeX, MATLAB}} \\
+     \textbf{Databases \& Technologies}{\small{: MongoDB, SQLite3, MySQL, POSIX, WebSockets, RESTful APIs}}
+    }}
+ \end{itemize}
+
+%-----------Scholastic Achievements-----------
+\section{Scholastic Achievements}
+\begin{itemize}
+    \item \small{Research Award, Academic Awards 2024-25, recognizing research excellence for working on research problems.}
+    \item \small{Dean's List - 2, Academic Awards 2024-25, recognizing academic excellence at IIIT Hyderabad}
+    \item \small{Dean's List - 1, Academic Awards 2023-24, recognizing academic excellence at IIIT Hyderabad}
+    \item \small{Dean's List - 2, Academic Awards 2022-23, demonstrating consistent academic performance at IIIT Hyderabad}
+    \item \small{Achieved All India Rank 4677 (CRL) in JEE Mains 2022, demonstrating strong performance in competitive examination}
+    \item \small{Attained All India Rank 4116 (CRL) in JEE Advanced 2022, showcasing excellence in advanced engineering subjects}
+    \item \small{Secured State Rank 550 in TS EAMCET 2022, demonstrating proficiency in state-level engineering entrance examination}
+    \item \small{Qualified Pre-Regional Mathematical Olympiad (PRMO) and National Standard Examination in Junior Science (NSEJS) in 2019}
+\end{itemize}
+
+%-------------------------------------------
+
+%---------Certificates----------------------
+\section{Certificates}
+\begin{itemize}
+    \item Certificate of completion, BlueDot AI Safety Course
+    \item Certificate of Participation, Megathon'25 conducted by E-Cell, IIIT Hyderabad.
+    \item Certificate of Completion of \{Devlaunch App Dev X Block Chain, Intro to ML, DL and Computer Vision\} held during summer school 2023 conducted by Various clubs of IIT Madras.
+    \item Certificate of Participation, Megathon'23 conducted by E-Cell, IIIT Hyderabad. 
+\end{itemize}
+
+\end{document}

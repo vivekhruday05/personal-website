@@ -53,3 +53,17 @@ permalink: /about/
   <li>{{ award }}</li>
 {% endfor %}
 </ul>
+
+## Positions of Responsibility
+
+{% for pos in resume.positions_of_responsibility %}
+<div class="list-card">
+  <div class="list-card-head">
+    <div>
+      <h3>{{ pos.role }}</h3>
+      <p class="muted">{{ pos.org }}</p>
+    </div>
+    <span class="pill">{{ pos.dates }}</span>
+  </div>
+</div>
+{% endfor %}
