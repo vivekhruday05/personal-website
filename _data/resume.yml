@@ -1,0 +1,142 @@
+profile:
+  name: Vivek Hruday Kavuri
+  role: Undergraduate Researcher · IIIT Hyderabad
+  tagline: Researching language, bias, and trustworthy AI
+  summary: B.Tech. in Computer Science and M.S. (by Research) in Computational Linguistics student focused on NLP, LLM evaluation, and bias mitigation.
+  location: Hyderabad, India
+  email: vivekhruday005@gmail.com
+  phone: "+91 7013929571"
+  resume_pdf: /Research_Resume_April_2026.pdf
+  socials:
+    - label: LinkedIn
+      url: ""
+    - label: GitHub
+      url: ""
+    - label: Codeforces
+      url: ""
+
+education:
+  - school: International Institute of Information Technology, Hyderabad
+    degree: B.Tech. in Computer Science and M.S. (by Research) in Computational Linguistics
+    dates: Sep 2022 – Present
+    location: Hyderabad, Telangana
+    note: CGPA 8.97 / 10
+
+coursework:
+  - Data Structures and Algorithms
+  - Linear Algebra
+  - Computer Systems Organization
+  - Algorithm Analysis and Design
+  - Data and Applications
+  - Probability and Statistics
+  - Automata Theory
+  - Design and Analysis of Software Systems
+  - Machine, Data and Learning
+  - Advanced NLP
+  - Operating Systems and Networks
+  - Statistical Methods in AI
+  - Responsible and Safe AI Systems
+
+publications:
+  - title: KTCR: Knowledge Transfer using Concept Refinement
+    venue: International Joint Conference on Neural Networks (IJCNN), 2025
+    status: Published
+    summary: Student-teacher framework for hate speech detection on implicit datasets.
+    impact: Nearly 10% improvement in F1 and AUC on Wiki Hate, EA, and CH datasets.
+    url: "https://arxiv.org/search/?query=KTCR%20Knowledge%20Transfer%20using%20Concept%20Refinement&searchtype=title"
+  - title: Freeze and Reveal: Exposing Modality Bias in Vision-Language Models
+    venue: OMMM 2025 Workshop, co-located with RANLP 2025
+    status: Accepted
+    summary: Novel de-biasing technique using data augmentation with reduced sample requirements.
+    impact: Analyzed which modalities in VLMs contribute more toward gender bias.
+    url: "https://arxiv.org/search/?query=Freeze%20and%20Reveal%20Exposing%20Modality%20Bias%20in%20Vision-Language%20Models&searchtype=title"
+  - title: NEAT: Concept Driven Neuron Attribution in LLMs
+    venue: SurgeLLM Workshop at ACL 2026
+    status: Under review
+    summary: Framework to attribute neurons responsible for broader human-like concepts.
+    impact: Reduced attribution cost from degree-2 polynomial complexity to linear polynomial complexity.
+    url: "https://arxiv.org/search/?query=NEAT%20Concept%20Driven%20Neuron%20Attribution%20in%20LLMs&searchtype=title"
+  - title: Think2: Grounded Metacognitive Reasoning in Large Language Models
+    venue: CoNLL 2026
+    status: Under review
+    summary: Metacognitive prompting for better error detection and self-correction in LLMs.
+    impact: Reported 3× better error detection and 84% human preference for trust and transparency.
+    url: "https://arxiv.org/search/?query=Think2%20Grounded%20Metacognitive%20Reasoning%20in%20Large%20Language%20Models&searchtype=title"
+
+experience:
+  - title: Undergraduate Researcher
+    org: Language Technologies Research Center (LTRC), IIIT Hyderabad
+    dates: May 2024 – Present
+    location: Hyderabad, India
+    bullets:
+      - Researching bias mitigation and implicit hate in LLMs under Dr. Rahul Mishra.
+      - Published work at IJCNN 2025 and co-advised by Dr. Vasudeva Varma on EdTech-focused AI solutions.
+  - title: Teaching Assistant
+    org: IIIT Hyderabad
+    dates: Aug 2025 – Present
+    location: Hyderabad, India
+    bullets:
+      - Teaching assistant for CS7.501 Advanced NLP with 100+ students.
+      - Mentoring 6 teams and co-mentoring 4 teams for the course project.
+  - title: Teaching Assistant
+    org: IIIT Hyderabad
+    dates: Jan 2025 – May 2025
+    location: Hyderabad, India
+    bullets:
+      - Teaching assistant for CS6.201 Introduction to Software Systems with 250+ students.
+      - Conducted 5 out of 10 lab sessions and managed grading, assignments, and student queries.
+  - title: Backend and Machine Learning Intern
+    org: DotVector AI
+    dates: Mar 2025 – Apr 2025
+    location: Remote
+    bullets:
+      - Designed and developed a speech synthesis pipeline using Kokoro.
+      - Deployed scalable GCP servers via Docker and built a low-latency streaming system with WebSockets.
+  - title: Project Mentor
+    org: International Advanced Summer School on NLP
+    dates: Jun 2024 – Jul 2024
+    location: IIIT Hyderabad
+    bullets:
+      - Designed a project curriculum on news article summarization for international participants.
+      - Mentored two teams of three participants each with technical guidance and project oversight.
+
+projects:
+  - title: Periodic Table SME
+    stack: Python, FastAPI, LangGraph, Gemini, Qwen, ChromaDB, Elasticsearch
+    summary: Multi-agent RAG system for chemistry Q&A, quiz/report generation, and document export.
+    bullets:
+      - Built ingestion, chunking, embeddings, retrieval, reranking, streaming APIs, and persistent chat memory.
+      - Enabled tool-driven outputs such as PDF/PPT generation and email delivery through one agent workflow.
+  - title: Tabular Question Answering System (Databench)
+    stack: Python, SQLite3, PyTorch, Transformers, PEFT
+    summary: Pipeline that converts CSV files to SQL tables for structured data querying and retrieval.
+    bullets:
+      - Fine-tuned transformer models on SPIDER for SQL generation and automated answer extraction.
+      - Improved accuracy by about 8% over the previous architecture.
+  - title: Analyzing Language Acquisition in Language Models
+    stack: Python, PyTorch, Transformers, scikit-learn, spaCy
+    summary: Simulated early language acquisition using BabyBERTa and age-graded child-directed speech datasets.
+    bullets:
+      - Evaluated syntactic and semantic learning with standardized benchmarks and linguistic analysis tools.
+      - Explored parallels between human developmental language learning and machine learning.
+  - title: Network File System
+    stack: C, POSIX, Sockets, Concurrency
+    summary: Client-server file system with naming and storage servers, replication, redundancy, and fail-safe monitoring.
+    bullets:
+      - Used POSIX threads for concurrency and continuous monitoring of dead servers.
+      - Added dynamic port allocation and both TCP and UDP connectivity through WebSockets.
+
+skills:
+  - category: Programming Languages
+    items: [C, C++, Python, JavaScript, SQL, HTML/CSS, Bash]
+  - category: Frameworks and Libraries
+    items: [PyTorch, Transformers, PEFT, React, Node, Express, pandas, NumPy, scikit-learn, Matplotlib]
+  - category: Developer Tools
+    items: [Git, VS Code, PyCharm, Docker, GCP, Unity, Figma, Canva, Vim, LaTeX, MATLAB]
+  - category: Databases and Technologies
+    items: [MongoDB, SQLite3, MySQL, POSIX, WebSockets, RESTful APIs]
+
+awards:
+  - Research Award, Academic Awards 2024–25, recognizing research excellence.
+  - Dean’s List - 1, Academic Awards 2023–24, at IIIT Hyderabad.
+  - Dean’s List - 2, Academic Awards 2022–23, at IIIT Hyderabad.

@@ -1,0 +1,17 @@
+title: Vivek Hruday Kavuri
+description: Minimal personal website for research, projects, and publications.
+baseurl: ""
+url: ""
+theme: minima
+markdown: kramdown
+plugins: []
+
+header_pages:
+  - about.md
+  - publications.md
+  - experience.md
+  - projects.md
+  - contact.md
+
+exclude:
+  - README.md
