@@ -38,25 +38,25 @@ coursework:
   - Responsible and Safe AI Systems
 
 publications:
-  - title: KTCR: Knowledge Transfer using Concept Refinement
+  - title: "KTCR: Knowledge Transfer using Concept Refinement"
     venue: International Joint Conference on Neural Networks (IJCNN), 2025
     status: Published
     summary: Student-teacher framework for hate speech detection on implicit datasets.
     impact: Nearly 10% improvement in F1 and AUC on Wiki Hate, EA, and CH datasets.
     url: "https://arxiv.org/search/?query=KTCR%20Knowledge%20Transfer%20using%20Concept%20Refinement&searchtype=title"
-  - title: Freeze and Reveal: Exposing Modality Bias in Vision-Language Models
+  - title: "Freeze and Reveal: Exposing Modality Bias in Vision-Language Models"
     venue: OMMM 2025 Workshop, co-located with RANLP 2025
     status: Accepted
     summary: Novel de-biasing technique using data augmentation with reduced sample requirements.
     impact: Analyzed which modalities in VLMs contribute more toward gender bias.
     url: "https://arxiv.org/search/?query=Freeze%20and%20Reveal%20Exposing%20Modality%20Bias%20in%20Vision-Language%20Models&searchtype=title"
-  - title: NEAT: Concept Driven Neuron Attribution in LLMs
+  - title: "NEAT: Concept Driven Neuron Attribution in LLMs"
     venue: SurgeLLM Workshop at ACL 2026
     status: Under review
     summary: Framework to attribute neurons responsible for broader human-like concepts.
     impact: Reduced attribution cost from degree-2 polynomial complexity to linear polynomial complexity.
     url: "https://arxiv.org/search/?query=NEAT%20Concept%20Driven%20Neuron%20Attribution%20in%20LLMs&searchtype=title"
-  - title: Think2: Grounded Metacognitive Reasoning in Large Language Models
+  - title: "Think2: Grounded Metacognitive Reasoning in Large Language Models"
     venue: CoNLL 2026
     status: Under review
     summary: Metacognitive prompting for better error detection and self-correction in LLMs.
