@@ -14,9 +14,19 @@
   --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: radial-gradient(circle at top, #eef3ff 0, var(--site-bg) 42%, #ffffff 100%);
   color: var(--text);
+  overflow-x: hidden;
+  transition: background 0.3s ease;
+}
+
+.btn, .text-link, .tag, .page-link {
+  transition: all 0.2s ease-in-out;
 }
 
 .site-header,

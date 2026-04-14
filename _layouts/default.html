@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    h1, h2, h3, .site-title, .btn { font-family: 'Outfit', sans-serif; }
+  </style>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="shell">
+      <div class="header-content" style="display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 0;">
+        <a class="site-title" href="{{ "/" | relative_url }}" style="font-size: 1.5rem; font-weight: 800; text-decoration: none; color: var(--text);">{{ site.title | escape }}</a>
+        <nav class="site-nav">
+          <div class="trigger" style="display: flex; gap: 1.5rem;">
+            {%- for path in site.header_pages -%}
+              {%- assign p = site.pages | where: "path", path | first -%}
+              {%- if p.title -%}
+              <a class="page-link" href="{{ p.url | relative_url }}" style="text-decoration: none; font-weight: 600; color: var(--text);">{{ p.title | escape }}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-content" aria-label="Content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <div style="padding: 2rem 0; border-top: 1px solid var(--border); margin-top: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <p class="muted" style="margin: 0;">&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}</p>
+        <div style="display: flex; gap: 1rem;">
+          <a href="mailto:{{ site.data.resume.profile.email }}" class="text-link">Email</a>
+          <a href="{{ site.data.resume.profile.resume_pdf | relative_url }}" class="text-link">Resume</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
